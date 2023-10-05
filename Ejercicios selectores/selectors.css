@@ -1,0 +1,102 @@
+/* Estila los elementos HTML según las siguientes instrucciones.
+NO ALTERES EL HTML EXISTENTE PARA HACER ESTO. ¡ESCRIBE SOLO CSS! */
+
+/* Haz que los elementos <h2> sean de color púrpura */
+h2 {
+    color: purple;
+}
+
+/* Dale al elemento <body> un fondo de color #bdc3c7 */
+body {
+    background-color: #bdc3c7;
+}
+
+/* Haz que el elemento <h1> sea de color #9b59b6 */
+h1 {
+    color: #9b59b6;
+}
+
+/* Haz que todos los elementos <h2> sean de color naranja */
+h2 {
+    color: orange;
+}
+
+/* Haz que todos los elementos <li> sean de color azul (elige tu propio valor hexadecimal de azul) */
+li {
+    color: rgb(0, 0, 255);
+}
+
+/* Cambia el fondo de todos los párrafos a amarillo */
+p {
+    background-color: yellow;
+}
+
+/* Haz que todos los inputs tengan un borde rojo de 3px */
+input {
+    border: red solid 3px;
+}
+
+/* Dale a todo lo que tenga la clase 'hello' un fondo blanco */
+.hello {
+    background-color: white;
+}
+
+/* Dale al elemento con id 'special' un borde sólido de 2px de color azul (elige tu propio valor RGB de azul) */
+#special {
+    border: solid 2px #0000ff;
+}
+
+/* Haz que todos los elementos <p> anidados dentro de elementos <div> tengan un tamaño de fuente de 25px */
+div p {
+    font-size: 25px;
+}
+
+/* Haz que solo los inputs con el atributo 'type' igual a 'text' tengan un fondo gris */
+input[type="text"] {
+    background-color: grey;
+}
+
+/* Dale un fondo rosa a ambos elementos <p> dentro del tercer <div> */
+div:nth-of-type(3) p {
+    background-color: pink;
+}
+
+/* Dale un borde blanco de 5px al segundo elemento <p> dentro del tercer <div> */
+div:nth-of-type(3) p:nth-of-type(2) {
+    border: solid white 5px;
+}
+
+/* Haz que el elemento <em> dentro del tercer <div> sea de color blanco y tenga un tamaño de fuente de 20px */
+div:nth-of-type(3) em {
+    color: white;
+    font-size: 20px;
+}
+
+/* DESAFÍOS BONUS */
+/* Es posible que necesites investigar algunos selectores y propiedades adicionales */
+
+/* Haz que todos los checkboxes "checked" tengan un margen izquierdo de 50px */
+input[checked] {
+    margin-left: 50px;
+}
+
+/* Haz que todos los elementos <label> estén en MAYÚSCULAS sin cambiar el HTML (investiga cómo hacerlo) */
+label {
+    text-transform: uppercase;
+}
+
+/* Haz que la primera letra del elemento con id 'special' sea de color verde y tenga un tamaño de fuente de 100px */
+#special::first-letter {
+    color: green;
+    font-size: 100px;
+}
+
+/* Cambia el color del elemento <h1> a azul cuando se coloque el puntero del ratón sobre él */
+h1:hover {
+    color: blue;
+}
+
+/* Haz que los elementos <a> visitados sean de color gris */
+a:visited {
+    color: grey;
+}
