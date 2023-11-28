@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "name": "crisilaAAA",
+      "email": "crisila@acosta.siempre",
+      "password": "undefined",
+      "fecha": "2004-02-02",
+      "id": 3
+    },
+    {
+      "name": "crisila",
+      "email": "crisila@acosta.siempre",
+      "password": "Aa1@aaaa",
+      "fecha": "2004-02-02",
+      "id": 4
+    }
+  ]
+}
